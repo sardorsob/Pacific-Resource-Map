@@ -38,3 +38,11 @@ artifacts/logs/runs/*
 !artifacts/logs/runs/.gitkeep
 !artifacts/logs/runs/2026-07-14__0000__task-068-regional-eda__678a645/
 !artifacts/logs/runs/2026-07-14__0000__task-068-regional-eda__678a645/*
+
+# Agent working context stays local; keep only the reader-facing docs README links to.
+/context/*
+!/context/DATA_CARD.md
+!/context/MODEL_CARD.md
+!/context/docs/
+/context/docs/*
+!/context/docs/methodology.md

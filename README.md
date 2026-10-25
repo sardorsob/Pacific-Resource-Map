@@ -126,7 +126,7 @@ analysis/      Reusable Python processing, scoring, modeling, and EDA code
 app/           React, TypeScript, Vite, and MapLibre atlas
 artifacts/     Generated figures, tables, provenance, and design evidence
 configs/       Dataset, index, outlook, and EDA configuration
-context/       Research, methodology, data, model, story, and design documentation
+context/       Methodology, data card, and model card (other working notes stay local)
 data/          Raw cache, processed observations, contracts, and app-ready exports
 research/      Challenge brief, official dataset inventory, and reference research
 scripts/       Reproducible command-line entry points
